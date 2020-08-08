@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+}
+
+#header {
+	background-color: #e6f2ff;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+
+h1,
+p {
+	text-align: center;
+}
+
+label {
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+input {
+	margin-left: 200px;
+	width: 75%;
+}
+
+#botText {
+	margin-left: 178px;
+}
+
+#topText,
+#botText,
+button {
+	margin-top: 20px;
+}
+
+button {
+	float: right;
+	margin-right: 38px;
+}
+
+#memes {
+	margin: 20px 50px 0 50px;
+}
+
+img {
+	margin-left: 20px;
+}
+
+.imageDiv {
+	display: inline-block;
+	position: relative;
+	margin: 20px;
+}
+
+.textOnTop {
+	position: absolute;
+	text-align: center;
+	top: 20px;
+	height: 80px;
+	width: 100%;
+	font-size: 50px;
+	color: white;
+}
+
+.textOnBot {
+	position: absolute;
+	text-align: center;
+	bottom: 20px;
+	height: 80px;
+	width: 100%;
+	font-size: 50px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.imageDiv .remove {
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 20%;
+	bottom: 20%;
+	font-size: 170px;
+	color: white;
+	display: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.imageDiv:hover .remove {
+	display: block;
+	cursor: pointer;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+}
